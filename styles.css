@@ -1,0 +1,117 @@
+.heading{
+	width: 50%;
+	margin: 30px auto;
+	text-align: center;
+	color: 	#6B8E23;
+	background: #FFF8DC;
+	border: 2px solid #6B8E23;
+	border-radius: 20px;
+}
+form {
+	width: 50%; 
+	margin: 30px auto; 
+	border-radius: 5px; 
+	padding: 10px;
+	background: #FFF8DC;
+	border: 1px solid #6B8E23;
+}
+form p {
+	color: red;
+	margin: 0px;
+}
+.task_input {
+	width: 75%;
+	height: 15px; 
+	padding: 10px;
+	border: 2px solid #6B8E23;
+	margin-right: 1rem;
+}
+.add_btn {
+	height: 39px;
+	background: #FFF8DC;
+	color: 	#6B8E23;
+	border: 2px solid #6B8E23;
+	border-radius: 5px; 
+	padding: 5px 20px;
+}
+
+table {
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+tr {
+	border-bottom: 1px solid #cbcbcb;
+}
+
+th {
+	font-size: 19px;
+	color: #6B8E23;
+}
+
+th, td{
+	border: none;
+    height: 30px;
+    padding: 2px;
+}
+
+tr:hover {
+	background: #E9E9E9;
+}
+
+.task {
+	text-align: left;
+}
+
+.delete{
+	text-align: center;
+}
+.delete a{
+	color: white;
+	background: #a52a2a;
+	padding: 1px 6px;
+	border-radius: 3px;
+	text-decoration: none;
+}
+
+/*=================new css=======================*/
+.apptitle {
+  margin: 1rem 0;
+  color: #ff2968;
+}
+
+.todolist {
+  padding-left: 0;
+}
+.todolist .todoitem {
+  position: relative;
+  margin-bottom: 0.25rem;
+  padding: 0.5rem 2rem 0.5rem 0.5rem;
+  border-top: 1px solid #ccc;
+}
+.todolist .todoitem.done .form-check-label {
+  color: #999;
+  text-decoration: line-through;
+}
+.todolist .todoitem.highlight {
+  border-color: #ff2968;
+  background-color: #ff8fb0;
+}
+.todolist .todoitem.highlight:last-child {
+  border-color: #ff2968;
+}
+.todolist .todoitem:last-child {
+  border-bottom: 1px solid #ccc;
+}
+.todolist .todoitem .btn-danger {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+.todolist .todoitem .form-check-label {
+  width: 100%;
+}
+.todolist .todoitem .form-check-label .form-check-input {
+  margin-right: 1rem;
+}
