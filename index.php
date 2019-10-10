@@ -112,7 +112,7 @@
           <a href="index.php?del_task=<?php echo $row['id'] ?>">x</a> 
         </td>
 
-<td>
+<td></td>
 
       </tr>
     <?php $i++; } ?>  
