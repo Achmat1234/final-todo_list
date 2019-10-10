@@ -111,9 +111,9 @@
         <td class="delete"> 
           <a href="index.php?del_task=<?php echo $row['id'] ?>">x</a> 
         </td>
-        <td>
 
-          
+
+        
       </tr>
     <?php $i++; } ?>  
   </tbody>
