@@ -107,9 +107,11 @@
     $i = 1; while ($row = mysqli_fetch_array($tasks)) { ?>
       <tr>
         <td> <?php echo $i; ?> </td>
-        <td class="task"> <input type="checkbox" class="form-check-input" value="on"><label class="form-check-label"><input type="checkbox" class="form-check-input" value="on"><!-- react-text: 20 --> <!-- /react-text --><!-- react-text: 21 -->HVHBKJBN<!-- /react-text --></label> <?php echo $row['task']; ?> </td>
+        <td class="task"> <input type="checkbox" class="form-check-input" value="on"> <?php echo $row['task']; ?> </td>
         <td class="delete"> 
           <a href="index.php?del_task=<?php echo $row['id'] ?>">x</a> 
+        </td>
+        <td>
         </td>
       </tr>
     <?php $i++; } ?>  
